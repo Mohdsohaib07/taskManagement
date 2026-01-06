@@ -29,7 +29,17 @@ cd task-management-app
 ### 2.Backend Setup  
 cd backend.  
 npm install.  
+create a .env file in the backend folder and add your MongoDB connection string:  
+```bash
+URL =your_mongodb_connection_string_here  
+PORT=3000
+```
 backend should run on port 3000.  
+start the server :  
+```bash
+npm run dev
+```  
+Server should run on http://localhost:3000  
 ### 3. Frontend Setup  
 cd frontend.  
 npm install.  
