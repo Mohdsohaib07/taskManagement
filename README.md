@@ -1,8 +1,8 @@
 
 
 # Simple Task Management App
-![app Screenshot](./screenshot.jpg)
 A full-stack MERN application for managing daily tasks. Built for the Full Stack Internship Assessment.
+![app Screenshot](./screenshot.jpg)
 
 ## 🚀 Features
 - **Create Tasks:** Add tasks with a title and description.
