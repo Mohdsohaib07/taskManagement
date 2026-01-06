@@ -23,5 +23,16 @@ Make sure you have `Node.js` and `npm` installed.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/Mohdsohaib07/taskManagement.git](https://github.com/Mohdsohaib07/taskManagement.git)
+git clone https://github.com/Mohdsohaib07/taskManagement.git
 cd task-management-app
+### 2.Backend Setup
+cd backend
+npm install
+backend should run on port 3000
+### 3. Frontend Setup
+cd frontend
+npm install
+
+start the React App:
+npm run dev
+#frontend should run on http://localhost:5173
