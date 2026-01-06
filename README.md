@@ -1,7 +1,7 @@
 
 
 # Simple Task Management App
-A full-stack MERN application for managing daily tasks. Built for the Full Stack Internship Assessment.
+A full-stack MERN application for managing daily tasks. 
 ![app Screenshot](./screenshot.jpg)
 
 ## 🚀 Features
@@ -27,13 +27,13 @@ git clone https://github.com/Mohdsohaib07/taskManagement.git
 ```
 cd task-management-app
 ### 2.Backend Setup
-cd backend
-npm install
-backend should run on port 3000
+cd backend.
+npm install.
+backend should run on port 3000.
 ### 3. Frontend Setup
-cd frontend
-npm install
+cd frontend.
+npm install.
 
 start the React App:
-npm run dev
+npm run dev.
 #frontend should run on http://localhost:5173
