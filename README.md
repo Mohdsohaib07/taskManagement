@@ -24,6 +24,7 @@ Make sure you have `Node.js` and `npm` installed.
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Mohdsohaib07/taskManagement.git
+```
 cd task-management-app
 ### 2.Backend Setup
 cd backend
