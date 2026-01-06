@@ -1,5 +1,8 @@
 const express = require('express');
 const {dbConnect}= require('./config/db.js');
+const dotenv = require('dotenv');
+// dot env config
+dotenv.config();
 const {router}= require('./routes/taskRoutes.js');
 const cors = require('cors');
 const app = express();
@@ -8,7 +11,7 @@ app.use(cors(
         origin: 'http://localhost:5173' // Allow requests from your frontend domain
     }
 ));
-const PORT = 3000;
+const PORT = process.env.PORT;
 //connecting to Database
 dbConnect();
 //parsing Json request body
